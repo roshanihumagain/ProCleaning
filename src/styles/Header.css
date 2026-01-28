@@ -1,0 +1,18 @@
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Increased gap between items */
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal; 
+  transition: color 0.3s ease;
+}
+
+.navigation-menu li a:hover {
+  color: #36B864;
+}

@@ -1,0 +1,11 @@
+.footer-link {
+  color: white;
+  font-size: 16px;
+  margin-top: 8px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #36B864; /* Hover green */
+}

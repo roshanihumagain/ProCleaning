@@ -1,0 +1,133 @@
+.pricing-section {
+  background: linear-gradient(135deg, #2fb66d, );
+  padding: 80px 20px;
+  opacity: 0;
+    animation: fadeUp 2s ease-in-out forwards;
+}
+
+.pricing-header {
+  text-align: center;
+  color: #2fb66d;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.pricing-header p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.pricing-header h1 {
+  font-size: 36px;
+  margin: 10px 0 30px;
+}
+
+
+.toggle {
+  display: inline-flex;
+  background: white;
+  border-radius: 30px;
+  padding: 4px;
+}
+
+.toggle button {
+  border: none;
+  background: transparent;
+  padding: 10px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.toggle .active {
+  background: #2fb66d;
+  color: white;
+}
+
+.pricing-cards {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card h3 {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.price-box {
+  background: #2fb66d;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.price-box span {
+  font-size: 12px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  flex: 1;
+}
+
+.pricing-card li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+.book-btn {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+
+.book-btn:hover {
+  background: #2fb66d;
+  color: white;
+  border-color: #2fb66d;
+}
+
+
+.book-btn:active {
+  background: #239c5b;
+  border-color: #239c5b;
+  color: white;
+}
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
