@@ -1,0 +1,25 @@
+[33md0d4bfb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mKomal[m[33m)[m chore: final project cleanup
+[33m815b027[m chore: add web vitals
+[33m3cdae94[m feat: add terms and conditions page
+[33md67c1d7[m feat: add services booking page
+[33m5698732[m feat: add services page
+[33mff78b0c[m feat: add privacy page
+[33mdbd2fe1[m feat: add profile page
+[33m4457f29[m feat: add registration page
+[33m6a70ef0[m feat: add login page
+[33m0c9832f[m feat: add feedback page
+[33m9319002[m feat: add contact page
+[33m4f23bad[m feat: add about page
+[33md28aaf8[m feat: add home page
+[33mfd15a5c[m style: add styles folder
+[33m216db95[m assets: add image assets
+[33m1e8b5bc[m feat: add layout components
+[33mdcb2240[m test: add app test
+[33mc272cff[m style: add app styles
+[33m2a2639a[m feat: setup App component
+[33m9981f05[m style: add global styles
+[33m0e25b2c[m feat: setup react entry point
+[33m618fa7f[m feat: add public assets
+[33me468357[m chore: add gitignore
+[33mba340be[m docs: add project readme
+[33ma50add0[m chore: initial npm setup
