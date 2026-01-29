@@ -1,0 +1,14 @@
+.navigation-menu{
+    margin-left: 200px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-menu li{
+    margin: 0 20px;
+}
+.navigation-menu li a{
+    text-decoration: none;
+    color: #4D4D4D;
+}
