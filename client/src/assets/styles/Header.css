@@ -1,0 +1,32 @@
+.navigation-menu {
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0 15px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.navigation-menu li a:hover {
+    color: #36B864;
+    background-color: rgba(54, 184, 100, 0.1);
+}
+
+.navigation-menu li a.active {
+    color: #36B864;
+    font-weight: bold;
+    border-bottom: 2px solid #36B864;
+    border-radius: 0;
+}
